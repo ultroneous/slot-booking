@@ -1,0 +1,585 @@
+.BackArrow {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.CheckoutText {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+
+.SubtitleText {
+  font-size: 35px;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.ButtonCol {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.SelectionTimeRow {
+  margin-top: 1.5rem;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 16rem;
+  overflow-y: scroll;
+  height: 255px;
+}
+
+.TimeCard {
+  padding: 1rem 0;
+  width: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  margin-inline: 0rem;
+  background-color: #ffffff;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.slotModal {
+  border-radius: 3rem !important;
+  margin-inline: 5rem !important;
+  background-color: aliceblue !important;
+}
+.close {
+  width: 22px;
+  position: absolute;
+  top: 103px;
+  right: 120px;
+}
+.timeColumnContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.SelectedCard {
+  background-color: rgb(227, 155, 166);
+  color: #ffffff;
+  border-radius: 1rem;
+}
+
+.TimeCardCol {
+  display: flex;
+  /* justify-content: center; */
+}
+
+.TimeText {
+  margin: 0%;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.ModalBody {
+  background-color: #f5f6fa;
+  padding: 2rem 1.5rem 6rem 1.5rem;
+  border-radius: 10px;
+}
+
+.CardOfdate {
+  padding: 1rem 2.5rem;
+  background-color: #ffffff;
+  text-align: center;
+  width: 9rem !important;
+  border-radius: 8px;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.SelectedCardOfDate {
+  background-color: rgb(227, 155, 166);
+  color: #ffffff;
+}
+
+.Day {
+  font-weight: bold;
+}
+
+.Date {
+  font-size: 23px;
+  font-weight: 900;
+}
+
+.Slogan {
+  font-weight: bold;
+}
+
+.CalenderWrraper {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  /* padding: 0 15rem; */
+  padding-inline: 50px !important;
+}
+
+.RightArrow {
+  background-color: #ffffff !important;
+}
+
+/* Location modal */
+.LocationText {
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.LocationBackArrow {
+  font-size: 25px;
+  color: #25282b;
+}
+
+.LocationHeadLine {
+  width: 100%;
+  margin: 3rem 0 6rem 0;
+}
+
+.HeadLine {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+
+.OrOptionText {
+  margin: 2rem 0;
+  font-weight: 400;
+  font-size: 18px;
+  color: #676767;
+  text-align: center;
+}
+
+.SearchIcon {
+  color: #024b78;
+  font-size: 25px;
+  margin-left: 3rem;
+}
+
+.SearchInput {
+  padding: 0.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border: 1.5px solid #0e62cb;
+  border-radius: 5px;
+}
+
+.SearchInput input {
+  margin-left: 1rem;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.LocationModalBody {
+  background-color: #ffffff;
+}
+
+.LocationRow {
+  padding-bottom: 4rem;
+}
+
+.ConfirmLocationSpace {
+  padding-top: 2rem;
+}
+
+.ConfirmLocationInput {
+  border: 1.5px solid #0e62cb;
+  border-radius: 5px;
+  padding: 0.5rem 0.3rem;
+  display: flex;
+}
+
+.SearchInp {
+  border: none !important;
+  outline: none !important;
+  font-size: 12px;
+  width: 100%;
+  background: transparent !important;
+}
+
+.ChangeLable {
+  font-weight: 700;
+  font-size: 14px;
+  color: #0e62cb;
+  /* cursor: pointer; */
+  float: right;
+  margin: 0%;
+  margin-right: 0.2rem;
+}
+
+.DetectDirectLabel {
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 0.5rem;
+}
+
+.CurrentLocationDiv {
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.ConfirmButtonDiv {
+  margin-top: 10.5rem;
+}
+
+.FinalInput {
+  width: 100%;
+  border: 1.5px solid #c4c4c4;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.SelectionMenu {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+
+.SelectedAddressActions {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.SelectedAddressText {
+  margin: 0%;
+}
+
+.ConfirmSelectedAddress {
+  padding: 2rem 2rem 0 2rem;
+}
+
+.AddressDiv {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.AddressInput {
+  padding-bottom: 1rem;
+}
+
+.AddressLine {
+  color: #676767;
+}
+
+.AddNewWrraper {
+  padding-top: 2rem;
+  cursor: pointer;
+}
+
+.PaymentSelection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f6f8fe;
+
+  border-radius: 5px;
+  padding: 0.5rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.SelectedPaymentWay {
+  border: 2.5px solid #0e62cb;
+  user-select: none;
+}
+
+.PaymentTitle {
+  margin: 0%;
+  margin-left: 1rem;
+  font-weight: 700;
+  font-size: 18px;
+  color: #0e62cb;
+  user-select: none;
+}
+
+.AvailableCoupons {
+  margin-top: 1.5rem;
+}
+
+.CartAndOfferSubMainTitle {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.TextRight {
+  text-align: right;
+}
+
+.LinkType {
+  color: #0e62cb;
+  text-decoration: underline;
+  cursor: pointer;
+  text-align: right;
+}
+
+.CouponsCol {
+  padding-bottom: 2rem;
+}
+
+.ProductName {
+  font-weight: 400;
+  font-size: 18px;
+  color: #676767;
+}
+
+.ProductPrice {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.TextRightPay,
+.TextMoneyRight {
+  text-align: right;
+}
+
+.DeleteImg {
+  margin-left: 1rem;
+}
+
+.TotalAmount {
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 0.5rem;
+}
+
+.TextMoneyRight {
+  margin-top: 0.5rem;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.PaymentSelectionRow {
+  margin: 3rem 0rem;
+}
+
+.YourCartCol {
+  margin-top: 3rem;
+}
+
+.YourCartInCol {
+  margin-bottom: 1rem;
+}
+
+/*  */
+@media (min-width: 320px) and (max-width: 450px) {
+  .HideNavigationBar {
+    display: none;
+  }
+
+  .ConfirmLocationSpace {
+    padding-top: 0rem;
+  }
+
+  .CalenderWrraper {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0%;
+  }
+
+  .CardOfdate {
+    padding: 1rem 1rem;
+    width: 7rem !important;
+  }
+
+  .Date {
+    font-size: 20px;
+  }
+
+  .Day {
+    font-size: 14px;
+  }
+
+  .Slogan {
+    font-size: 14px;
+  }
+
+  .SelectionTimeRow {
+    padding: 0%;
+  }
+
+  .CardOfdate {
+    width: 6rem;
+  }
+
+  .ModalBody {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 4rem;
+  }
+
+  .SubtitleText {
+    margin-top: 1rem;
+    text-align: left;
+  }
+
+  .ButtonwidthMobile {
+    width: 100% !important;
+  }
+
+  .ColReverse {
+    flex-direction: column-reverse;
+  }
+
+  .FinalGmap {
+    display: none;
+  }
+
+  .DetectDirectLabel {
+    font-weight: 700;
+    font-size: 14px;
+    color: #0e62cb;
+  }
+
+  .CurrentLocationDiv {
+    padding: 0.2rem 0.6rem;
+    border: 2px solid #0e62cb;
+    border-radius: 5px;
+    width: fit-content;
+    position: fixed;
+    bottom: 11rem;
+    z-index: 1;
+    left: 6rem;
+    backdrop-filter: blur(10px);
+  }
+
+  .ConfirmButtonDiv {
+    margin-top: 0%;
+  }
+
+  .ConfirmSelectedAddress {
+    padding: 0%;
+  }
+
+  .AddressDiv {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .PaymentSelection {
+    margin-bottom: 2rem;
+    border: 1px solid #0e62cb;
+    border-radius: 5px;
+  }
+
+  .SelectedPaymentWay {
+    background: #fff;
+    border-radius: 5px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1080px) {
+  .HideNavigationBar {
+    display: none;
+  }
+
+  .ProcessName {
+    display: none !important;
+  }
+
+  .ConfirmLocationSpace {
+    padding-top: 2rem;
+  }
+
+  .CalenderWrraper {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0%;
+  }
+
+  .CardOfdate {
+    padding: 1rem 1rem;
+  }
+
+  .Date {
+    font-size: 20px;
+  }
+
+  .Day {
+    font-size: 14px;
+  }
+
+  .Slogan {
+    font-size: 14px;
+  }
+
+  .SelectionTimeRow {
+    padding: 0%;
+  }
+
+  .CardOfdate {
+    width: 6rem;
+  }
+
+  .ModalBody {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 3rem;
+  }
+
+  .SubtitleText {
+    margin-top: 1rem;
+    text-align: left;
+  }
+
+  .ButtonwidthMobile {
+    width: 100% !important;
+  }
+
+  .ColReverse {
+    flex-direction: column-reverse;
+  }
+
+  .FinalGmap {
+    display: none;
+  }
+
+  .DetectDirectLabel {
+    font-weight: 700;
+    font-size: 14px;
+    color: #0e62cb;
+  }
+
+  .CurrentLocationDiv {
+    padding: 0.2rem 0.6rem;
+    border: 2px solid #0e62cb;
+    border-radius: 5px;
+    width: fit-content;
+    position: fixed;
+    bottom: 24rem;
+    z-index: 1;
+    left: 19rem;
+    backdrop-filter: blur(10px);
+  }
+
+  .ConfirmButtonDiv {
+    margin-top: 2%;
+  }
+
+  .TimeCard {
+    font-size: 12px;
+  }
+
+  .SelectionTimeRow {
+    padding: 0 3rem;
+  }
+
+  .ConfirmSelectedAddress {
+    padding: 2rem 1rem 2rem 1rem;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1730px) {
+}
+
+@media (min-width: 650px) and (max-width: 740px) {
+}
